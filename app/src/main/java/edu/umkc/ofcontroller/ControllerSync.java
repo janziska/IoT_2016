@@ -210,8 +210,7 @@ public class ControllerSync {
                             int port = chkrpkt.getPort();
                             InetAddress srcip = chkrpkt.getAddress();
                             Log.i("src port", Integer.toString(port));
-                            Log.i("src port", srcip.toString())
-                            ;
+                            Log.i("src port", srcip.toString();
                             if(master){
                                 status = "yes";
                             }
